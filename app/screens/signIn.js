@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 20,
     backgroundColor: '#e6e8e6',
-    color: '#B6B7B7',
+    color: 'black',
   },
   commonFontColour: {
     color: '#7C7D7E',

@@ -124,6 +124,7 @@ const home = () => {
           data={DATA}
           renderItem={renderItem}
           keyExtractor={item => item.id}
+          showsVerticalScrollIndicator={false}
         />
       </View>
     );
@@ -141,9 +142,10 @@ export default home;
 
 const styles = StyleSheet.create({
   mainComponents: {
-    height: '100%',
+    // height: '100%',
     width: '93%',
     alignSelf: 'center',
+    marginBottom: 150,
   },
   image: {
     width: '100%',
